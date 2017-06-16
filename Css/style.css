@@ -3,7 +3,7 @@
 body {
     width: 1920px;
     height: 950px;
-	background-image: url(/img/provafon6.png);
+	background-image: url(img/provafon6.png);
     background-repeat: no-repeat:
 }
 
@@ -23,7 +23,7 @@ body {
 	left: 100px;
 	width: 500px;
 	height: 500px;
-	background-image: url(/img/modelingdot.png);
+	background-image: url(img/modelingdot.png);
 	animation-duration: 3s;
 	animation-iteration-count:1;/* cambiar itineration count a 1 per animacio out i temps a 3s*/
 	animation-fill-mode: forwards;
@@ -45,7 +45,7 @@ body {
 	left: 470px;
 	width: 500px;
 	height: 500px;
-	background-image: url(/img/scenesdot.png);
+	background-image: url(img/scenesdot.png);
 	animation-duration: 3s;
 	animation-iteration-count:1;
 	animation-fill-mode: forwards;
@@ -66,7 +66,7 @@ body {
 	left: 470px;
 	width: 500px;
 	height: 500px;
-	background-image: url(/img/programdot.png);
+	background-image: url(img/programdot.png);
 	animation-duration: 3s;
 	animation-iteration-count:1;
 	animation-fill-mode: forwards;
@@ -87,7 +87,7 @@ body {
 	left: 100px;
 	width: 500px;
 	height: 500px;
-	background-image: url(/img/photoshopdot.png);
+	background-image: url(img/photoshopdot.png);
 	animation-duration: 3s;
 	animation-iteration-count:1;
 	animation-fill-mode: forwards;
@@ -108,7 +108,7 @@ body {
     left: 460px;
     width: 150px;
     height: 150px;
-    background-image: url(/img/contact.png);
+    background-image: url(img/contact.png);
     background-color: gray;
     cursor: pointer;
     border-radius: 100%;
@@ -187,7 +187,7 @@ body {
 	width: 1024px;
 	height: 768px;
 	border-radius: 25px;
-	background-image: url(/img/lowpoly.jpg);
+	background-image: url(img/lowpoly.jpg);
 	border: 10px greenyellow solid;
 	z-index:6 ;
 	position: absolute;
@@ -205,7 +205,7 @@ body {
 	height: 768px;
 	border-radius: 25px;
 	border: 10px red solid;
-	background-image: url(/img/pauta.jpg);
+	background-image: url(img/pauta.jpg);
 	z-index:6 ;
 	position: absolute;
 	left: 480px;
@@ -222,7 +222,7 @@ body {
 	height: 768px;
 	border-radius: 25px;
 	border: 10px orange solid;
-	background-image: url(/img/ilufons.jpg);
+	background-image: url(img/ilufons.jpg);
 	z-index:6 ;
 	position: absolute;
 	left: 480px;
@@ -239,7 +239,7 @@ body {
 	height: 768px;
 	border-radius: 25px;
 	border: 10px cyan solid;
-	background-image: url(/img/prografons23.png);
+	background-image: url(img/prografons23.png);
 	z-index:6 ;
 	position: absolute;
 	left: 480px;
@@ -265,7 +265,7 @@ body {
     left: 10px;
     height: 358px;
     width: 500px;
-    background-image: url(/Media/disseny/envialian1v1.jpg);
+    background-image: url(Media/disseny/envialian1v1.jpg);
     transform: scale(0.8);
     border-radius: 25px;
     border: 5px black solid;
@@ -276,7 +276,7 @@ body {
     left: 500px;
     height: 358px;
     width: 500px;
-    background-image: url(/Media/disseny/envialia1.jpg);
+    background-image: url(Media/disseny/envialia1.jpg);
     transform: scale(0.8);
     border-radius: 25px;
     border: 5px black solid;
@@ -287,7 +287,7 @@ body {
     left: 10px;
     height: 358px;
     width: 500px;
-    background-image: url(/Media/disseny/envialian1.jpg);
+    background-image: url(Media/disseny/envialian1.jpg);
     transform: scale(0.8);
     border-radius: 25px;
     border: 5px black solid;
@@ -298,7 +298,7 @@ body {
     left: 500px;
     height: 358px;
     width: 500px;
-    background-image: url(/Media/disseny/envialian.jpg);
+    background-image: url(Media/disseny/envialian.jpg);
     transform: scale(0.8);
     border-radius: 25px;
     border: 5px black solid;
@@ -323,7 +323,7 @@ body {
     left: -70px;
     height: 200px;
     width: 500px;
-    background-image: url(/Media/disseny/dates/envdata.png);
+    background-image: url(Media/disseny/dates/envdata.png);
     transform: scale(0.5);   
 }
 .envtitle{
@@ -332,7 +332,7 @@ body {
     left: 170px;
     height: 200px;
     width: 700px;
-    background-image: url(/Media/disseny/titols/digra.png);
+    background-image: url(Media/disseny/titols/digra.png);
     transform: scale(0.7);
 }
 .esbostime{
@@ -341,7 +341,7 @@ body {
     left: 250px;
     height: 358px;
     width: 500px;
-    background-image: url(/Media/disseny/esbos.jpg);
+    background-image: url(Media/disseny/esbos.jpg);
     transform: scale(0.8);
     border-radius: 25px;
     border: 5px black solid;
@@ -352,7 +352,7 @@ body {
     left: 10px;
     height: 358px;
     width: 500px;
-    background-image: url(/Media/disseny/wintertime.jpg);
+    background-image: url(Media/disseny/wintertime.jpg);
     transform: scale(0.8);
     border-radius: 25px;
     border: 5px black solid;
@@ -363,7 +363,7 @@ body {
     left: 500px;
     height: 358px;
     width: 500px;
-    background-image: url(/Media/disseny/summertime.jpg);
+    background-image: url(Media/disseny/summertime.jpg);
     transform: scale(0.8);
     border-radius: 25px;
     border: 5px black solid;
@@ -388,7 +388,7 @@ body {
     left: -70px;
     height: 200px;
     width: 500px;
-    background-image: url(/Media/disseny/dates/summerdata.png);
+    background-image: url(Media/disseny/dates/summerdata.png);
     transform: scale(0.5);  
 }
 .summertitle{
@@ -397,7 +397,7 @@ body {
     left: 170px;
     height: 200px;
     width: 700px;
-    background-image: url(/Media/disseny/titols/Timem.png);
+    background-image: url(Media/disseny/titols/Timem.png);
     transform: scale(0.7);
 }
 .avatar{
@@ -406,7 +406,7 @@ body {
     left: 130px;
     height: 408px;
     width: 800px;
-    background-image: url(/Media/disseny/Avatar.jpg);
+    background-image: url(Media/disseny/Avatar.jpg);
     transform: scale(0.8);
     border-radius: 25px;
     border: 5px black solid;
@@ -417,7 +417,7 @@ body {
     left: -70px;
     height: 200px;
     width: 500px;
-    background-image: url(/Media/disseny/dates/avatardata.png);
+    background-image: url(Media/disseny/dates/avatardata.png);
     transform: scale(0.5);  
 }
 .avatartitle{
@@ -426,7 +426,7 @@ body {
     left: 170px;
     height: 200px;
     width: 700px;
-    background-image: url(/Media/disseny/titols/avatar.png);
+    background-image: url(Media/disseny/titols/avatar.png);
     transform: scale(0.8);
 }
 .avatartext{
@@ -449,7 +449,7 @@ body {
     left: 130px;
     height: 555px;
     width: 800px;
-    background-image: url(/Media/disseny/emoticones.jpg);
+    background-image: url(Media/disseny/emoticones.jpg);
     transform: scale(0.8);
     border-radius: 25px;
     border: 5px black solid;
@@ -460,7 +460,7 @@ body {
     left: -70px;
     height: 200px;
     width: 500px;
-    background-image: url(/Media/disseny/dates/emotdata.png);
+    background-image: url(Media/disseny/dates/emotdata.png);
     transform: scale(0.5);  
 }
 .emoticonestitle{
@@ -469,7 +469,7 @@ body {
     left: 170px;
     height: 200px;
     width: 700px;
-    background-image: url(/Media/disseny/titols/faces.png);
+    background-image: url(Media/disseny/titols/faces.png);
     transform: scale(0.8);
 }
 .emoticonestext{
@@ -492,7 +492,7 @@ body {
     left: 300px;
     height: 600px;
     width: 424px;
-    background-image: url(/Media/disseny/fons.jpg);
+    background-image: url(Media/disseny/fons.jpg);
     transform: scale(0.8);
     border-radius: 25px;
     border: 5px black solid;
@@ -503,7 +503,7 @@ body {
     left: -70px;
     height: 200px;
     width: 500px;
-    background-image: url(/Media/disseny/dates/fonsdata.png);
+    background-image: url(Media/disseny/dates/fonsdata.png);
     transform: scale(0.5);  
 }
 .fonstitle{
@@ -512,7 +512,7 @@ body {
     left: 170px;
     height: 200px;
     width: 700px;
-    background-image: url(/Media/disseny/titols/mix.png);
+    background-image: url(Media/disseny/titols/mix.png);
     transform: scale(0.8);
 }
 .fonstext{
@@ -535,7 +535,7 @@ body {
     left: 200px;
     height: 424px;
     width: 600px;
-    background-image: url(/Media/disseny/pinzells.jpg);
+    background-image: url(Media/disseny/pinzells.jpg);
     transform: scale(0.8);
     border-radius: 25px;
     border: 5px black solid;
@@ -546,7 +546,7 @@ body {
     left: -70px;
     height: 200px;
     width: 500px;
-    background-image: url(/Media/disseny/dates/pinzellsdata.png);
+    background-image: url(Media/disseny/dates/pinzellsdata.png);
     transform: scale(0.5);  
 }
 .pinzellstitle{
@@ -555,7 +555,7 @@ body {
     left: 170px;
     height: 200px;
     width: 700px;
-    background-image: url(/Media/disseny/titols/brush.png);
+    background-image: url(Media/disseny/titols/brush.png);
     transform: scale(0.8);
 }
 .pinzellstext{
@@ -578,7 +578,7 @@ body {
     left: 300px;
     height: 600px;
     width: 397px;
-    background-image: url(/Media/disseny/worldball.jpg);
+    background-image: url(Media/disseny/worldball.jpg);
     transform: scale(0.8);
     border-radius: 25px;
     border: 5px black solid;
@@ -589,7 +589,7 @@ body {
     left: -70px;
     height: 200px;
     width: 500px;
-    background-image: url(/Media/disseny/dates/worlddata.png);
+    background-image: url(Media/disseny/dates/worlddata.png);
     transform: scale(0.5);  
 }
 .worldtitle{
@@ -598,7 +598,7 @@ body {
     left: 170px;
     height: 200px;
     width: 700px;
-    background-image: url(/Media/disseny/titols/worldball.png);
+    background-image: url(Media/disseny/titols/worldball.png);
     transform: scale(0.7);
 }
 .worldtext{
@@ -621,7 +621,7 @@ body {
     left: 130px;
     height: 450px;
     width: 800px;
-    background-image: url(/Media/disseny/bmw.jpg);
+    background-image: url(Media/disseny/bmw.jpg);
     transform: scale(0.8);
     border-radius: 25px;
     border: 5px black solid;
@@ -632,7 +632,7 @@ body {
     left: -70px;
     height: 200px;
     width: 500px;
-    background-image: url(/Media/disseny/dates/bmwdata.png);
+    background-image: url(Media/disseny/dates/bmwdata.png);
     transform: scale(0.5);  
 }
 .bmwtitle{
@@ -641,7 +641,7 @@ body {
     left: 170px;
     height: 200px;
     width: 700px;
-    background-image: url(/Media/disseny/titols/bmw.png);
+    background-image: url(Media/disseny/titols/bmw.png);
     transform: scale(0.6);
 }
 .bmwtext{
@@ -664,7 +664,7 @@ body {
     left: 300px;
     height: 600px;
     width: 398px;
-    background-image: url(/Media/disseny/fotomuntatge-dona-v2.jpg);
+    background-image: url(Media/disseny/fotomuntatge-dona-v2.jpg);
     transform: scale(0.8);
     border-radius: 25px;
     border: 5px black solid;
@@ -675,7 +675,7 @@ body {
     left: -70px;
     height: 200px;
     width: 500px;
-    background-image: url(/Media/disseny/dates/v2data.png);
+    background-image: url(Media/disseny/dates/v2data.png);
     transform: scale(0.5);  
 }
 .dostitle{
@@ -684,7 +684,7 @@ body {
     left: 170px;
     height: 200px;
     width: 700px;
-    background-image: url(/Media/disseny/titols/dos.png);
+    background-image: url(Media/disseny/titols/dos.png);
     transform: scale(0.6);
 }
 .dostext{
@@ -707,7 +707,7 @@ body {
     left: 300px;
     height: 600px;
     width: 398px;
-    background-image: url(/Media/disseny/retrat.alcaidebenjami.jpg);
+    background-image: url(Media/disseny/retrat.alcaidebenjami.jpg);
     transform: scale(0.8);
     border-radius: 25px;
     border: 5px black solid;
@@ -718,7 +718,7 @@ body {
     left: -70px;
     height: 200px;
     width: 500px;
-    background-image: url(/Media/disseny/dates/retratdata.png);
+    background-image: url(Media/disseny/dates/retratdata.png);
     transform: scale(0.5);  
 }
 .fotomuntatgetitle{
@@ -727,7 +727,7 @@ body {
     left: 170px;
     height: 200px;
     width: 700px;
-    background-image: url(/Media/disseny/titols/cyborg.png);
+    background-image: url(Media/disseny/titols/cyborg.png);
     transform: scale(0.6);
 }
 .fotomuntatgetext{
@@ -772,7 +772,7 @@ body {
     height: 200px;
     top: 0px;
     left: 150px;
-    background-image: url(/Media/modelatge/titols/mototitol.png);
+    background-image: url(Media/modelatge/titols/mototitol.png);
     background-repeat: no-repeat;
 }
 .motodata{
@@ -781,7 +781,7 @@ body {
     left: -70px;
     height: 200px;
     width: 500px;
-    background-image: url(/Media/modelatge/dates/motodata.png);
+    background-image: url(Media/modelatge/dates/motodata.png);
     transform: scale(0.5);  
 }
 .mototext{
@@ -811,7 +811,7 @@ body {
     height: 200px;
     top: 700px;
     left: 150px;
-    background-image: url(/Media/modelatge/titols/dractitol.png);
+    background-image: url(Media/modelatge/titols/dractitol.png);
     background-repeat: no-repeat; 
 }
 .dracdata{
@@ -820,7 +820,7 @@ body {
     left: -70px;
     height: 200px;
     width: 500px;
-    background-image: url(/Media/modelatge/dates/dracdata.png);
+    background-image: url(Media/modelatge/dates/dracdata.png);
     transform: scale(0.5);  
 }
 .dractext{
@@ -850,7 +850,7 @@ body {
     height: 200px;
     top: 1400px;
     left: 150px;
-    background-image: url(/Media/modelatge/titols/hellboytitol.png);
+    background-image: url(Media/modelatge/titols/hellboytitol.png);
     background-repeat: no-repeat; 
 }
 .hellboydata{
@@ -859,7 +859,7 @@ body {
     left: -70px;
     height: 200px;
     width: 500px;
-    background-image: url(/Media/modelatge/dates/helldata.png);
+    background-image: url(Media/modelatge/dates/helldata.png);
     transform: scale(0.5);  
 }
 .hellboytext{
@@ -889,7 +889,7 @@ body {
     height: 200px;
     top: 2100px;
     left: 150px;
-    background-image: url(/Media/modelatge/titols/robtitol.png);
+    background-image: url(Media/modelatge/titols/robtitol.png);
     background-repeat: no-repeat;   
 }
 .robbdata{
@@ -898,7 +898,7 @@ body {
     left: -100px;
     height: 200px;
     width: 500px;
-    background-image: url(/Media/modelatge/dates/robdata.png);
+    background-image: url(Media/modelatge/dates/robdata.png);
     transform: scale(0.5);  
 }
 .robtext{
@@ -928,7 +928,7 @@ body {
     height: 200px;
     top: 2800px;
     left: 150px;
-    background-image: url(/Media/modelatge/titols/kitaidtitol.png);
+    background-image: url(Media/modelatge/titols/kitaidtitol.png);
     background-repeat: no-repeat;  
 }
 .kitchendata{
@@ -937,7 +937,7 @@ body {
     left: -110px;
     height: 200px;
     width: 500px;
-    background-image: url(/Media/modelatge/dates/kitaiddata.png);
+    background-image: url(Media/modelatge/dates/kitaiddata.png);
     transform: scale(0.5);  
 }
 .kitchentext{
@@ -967,7 +967,7 @@ body {
     height: 200px;
     top: 3500px;
     left: 150px;
-    background-image: url(/Media/modelatge/titols/torsotitol.png);
+    background-image: url(Media/modelatge/titols/torsotitol.png);
     background-repeat: no-repeat;
 }
 .torsodata{
@@ -976,7 +976,7 @@ body {
     left: -70px;
     height: 200px;
     width: 500px;
-    background-image: url(/Media/modelatge/dates/torsodata.png);
+    background-image: url(Media/modelatge/dates/torsodata.png);
     transform: scale(0.5);  
 }
 .torsotext{
@@ -1006,7 +1006,7 @@ body {
     height: 200px;
     top: 4200px;
     left: 200px;
-    background-image: url(/Media/modelatge/titols/nublartitol.png);
+    background-image: url(Media/modelatge/titols/nublartitol.png);
     background-repeat: no-repeat;
     }
 .nublardata{
@@ -1015,7 +1015,7 @@ body {
     left: -110px;
     height: 200px;
     width: 500px;
-    background-image: url(/Media/modelatge/dates/nublar-data.png);
+    background-image: url(Media/modelatge/dates/nublar-data.png);
     transform: scale(0.5);  
 }
 .nublartext{
@@ -1045,7 +1045,7 @@ body {
     height: 200px;
     top: 4900px;
     left: 150px;
-    background-image: url(/Media/modelatge/titols/dinotitol.png);
+    background-image: url(Media/modelatge/titols/dinotitol.png);
     background-repeat: no-repeat; 
 }
 .dinodata{
@@ -1054,7 +1054,7 @@ body {
     left: -70px;
     height: 200px;
     width: 500px;
-    background-image: url(/Media/modelatge/dates/dinozdata.png);
+    background-image: url(Media/modelatge/dates/dinozdata.png);
     transform: scale(0.5);  
 }
 .dinotext{
@@ -1084,7 +1084,7 @@ body {
     height: 200px;
     top: 5600px;
     left: 150px;
-    background-image: url(/Media/modelatge/titols/xwingtitol.png);
+    background-image: url(Media/modelatge/titols/xwingtitol.png);
     background-repeat: no-repeat;  
 }
 .xwingdata{
@@ -1093,7 +1093,7 @@ body {
     left: -70px;
     height: 200px;
     width: 500px;
-    background-image: url(/Media/modelatge/dates/xwingdata.png);
+    background-image: url(Media/modelatge/dates/xwingdata.png);
     transform: scale(0.5);  
 }
 .xwingtext{
@@ -1123,7 +1123,7 @@ body {
     height: 200px;
     top: 6300px;
     left: 150px;
-    background-image: url(/Media/modelatge/titols/lamptitol.png);
+    background-image: url(Media/modelatge/titols/lamptitol.png);
     background-repeat: no-repeat;
 }
 .lampdata{
@@ -1132,7 +1132,7 @@ body {
     left: -70px;
     height: 200px;
     width: 500px;
-    background-image: url(/Media/modelatge/dates/lampdata.png);
+    background-image: url(Media/modelatge/dates/lampdata.png);
     transform: scale(0.5);  
 }
 .lamptext{
@@ -1156,7 +1156,7 @@ body {
     left: 100px;
     height: 450px;
     width: 800px;
-    background-image: url(/Media/ilu/finalbumpv4.png);
+    background-image: url(Media/ilu/finalbumpv4.png);
     transform: scale(0.8);
     border-radius: 25px;
     border: 5px black solid;
@@ -1181,7 +1181,7 @@ body {
     left: -70px;
     height: 200px;
     width: 500px;
-    background-image: url(/Media/ilu/dates/escilu.png);
+    background-image: url(Media/ilu/dates/escilu.png);
     transform: scale(0.5);   
 }
 .escilutitle{
@@ -1190,7 +1190,7 @@ body {
     left: 170px;
     height: 200px;
     width: 700px;
-    background-image: url(/Media/ilu/titols/Museu.png);
+    background-image: url(Media/ilu/titols/Museu.png);
     transform: scale(0.7);
 }
 .nit{
@@ -1199,7 +1199,7 @@ body {
     left: 50px;
     height: 281px;
     width: 500px;
-    background-image: url(/Media/ilu/rendernit.png);
+    background-image: url(Media/ilu/rendernit.png);
     transform: scale(0.8);
     border-radius: 25px;
     border: 5px black solid;
@@ -1210,7 +1210,7 @@ body {
     left: 480px;
     height: 281px;
     width: 500px;
-    background-image: url(/Media/ilu/renderdia.png);
+    background-image: url(Media/ilu/renderdia.png);
     transform: scale(0.8);
     border-radius: 25px;
     border: 5px black solid;
@@ -1235,7 +1235,7 @@ body {
     left: -70px;
     height: 200px;
     width: 500px;
-    background-image: url(/Media/ilu/dates/habitacio.png);
+    background-image: url(Media/ilu/dates/habitacio.png);
     transform: scale(0.5);   
 }
 .habtitle{
@@ -1244,7 +1244,7 @@ body {
     left: 110px;
     height: 200px;
     width: 700px;
-    background-image: url(/Media/ilu/titols/room.png);
+    background-image: url(Media/ilu/titols/room.png);
     transform: scale(0.7);
 }
 .bidons{
@@ -1253,7 +1253,7 @@ body {
     left: 20px;
     height: 540px;
     width: 960px;
-    background-image: url(/Media/ilu/ombrapla.png);
+    background-image: url(Media/ilu/ombrapla.png);
     transform: scale(0.8);
     border-radius: 25px;
     border: 5px black solid;
@@ -1278,7 +1278,7 @@ body {
     left: -70px;
     height: 200px;
     width: 500px;
-    background-image: url(/Media/ilu/dates/bidons.png);
+    background-image: url(Media/ilu/dates/bidons.png);
     transform: scale(0.5);   
 }
 .bidonstitle{
@@ -1287,7 +1287,7 @@ body {
     left: 140px;
     height: 200px;
     width: 700px;
-    background-image: url(/Media/ilu/titols/bodego.png);
+    background-image: url(Media/ilu/titols/bodego.png);
     transform: scale(0.7);
 }
 .fruites{
@@ -1296,7 +1296,7 @@ body {
     left: 150px;
     height: 394px;
     width: 700px;
-    background-image: url(/Media/ilu/esquema%201%20key.png);
+    background-image: url(Media/ilu/esquema%201%20key.png);
     transform: scale(0.8);
     border-radius: 25px;
     border: 5px black solid;
@@ -1307,7 +1307,7 @@ body {
     left: -70px;
     height: 200px;
     width: 500px;
-    background-image: url(/Media/ilu/dates/fruites.png);
+    background-image: url(Media/ilu/dates/fruites.png);
     transform: scale(0.5);   
 }
 .fruitestitle{
@@ -1316,7 +1316,7 @@ body {
     left: 170px;
     height: 200px;
     width: 700px;
-    background-image: url(/Media/ilu/titols/fruit.png);
+    background-image: url(Media/ilu/titols/fruit.png);
     transform: scale(0.7);
 }
 
@@ -1337,7 +1337,7 @@ body {
     height: 200px;
     top: 0px;
     left: 150px;
-    background-image: url(/Media/programacio/titols/flappy.png);
+    background-image: url(Media/programacio/titols/flappy.png);
     background-repeat: no-repeat;
 }
 .flappydata{
@@ -1346,7 +1346,7 @@ body {
     left: -70px;
     height: 200px;
     width: 500px;
-    background-image: url(/Media/programacio/dates/flappy.png);
+    background-image: url(Media/programacio/dates/flappy.png);
     transform: scale(0.5);  
 }
 .flappytext{
@@ -1376,7 +1376,7 @@ body {
     height: 200px;
     top: 700px;
     left: 220px;
-    background-image: url(/Media/programacio/titols/nau.png);
+    background-image: url(Media/programacio/titols/nau.png);
     background-repeat: no-repeat; 
 }
 .naudata{
@@ -1385,7 +1385,7 @@ body {
     left: -70px;
     height: 200px;
     width: 500px;
-    background-image: url(/Media/programacio/dates/nau.png);
+    background-image: url(Media/programacio/dates/nau.png);
     transform: scale(0.5);  
 }
 .nautext{
@@ -1415,7 +1415,7 @@ body {
     height: 200px;
     top: 1400px;
     left: 150px;
-    background-image: url(/Media/programacio/titols/pou.png);
+    background-image: url(Media/programacio/titols/pou.png);
     background-repeat: no-repeat; 
 }
 .poudata{
@@ -1424,7 +1424,7 @@ body {
     left: -70px;
     height: 200px;
     width: 500px;
-    background-image: url(/Media/programacio/dates/pou.png);
+    background-image: url(Media/programacio/dates/pou.png);
     transform: scale(0.5);  
 }
 .poutext{
@@ -1454,7 +1454,7 @@ body {
     height: 200px;
     top: 2100px;
     left: 150px;
-    background-image: url(/Media/programacio/titols/pong.png);
+    background-image: url(Media/programacio/titols/pong.png);
     background-repeat: no-repeat;   
 }
 .pongdata{
@@ -1463,7 +1463,7 @@ body {
     left: -100px;
     height: 200px;
     width: 500px;
-    background-image: url(/Media/programacio/dates/pong.png);
+    background-image: url(Media/programacio/dates/pong.png);
     transform: scale(0.5);  
 }
 .pongtext{
@@ -1493,7 +1493,7 @@ body {
     height: 200px;
     top: 2800px;
     left: 150px;
-    background-image: url(/Media/programacio/titols/piano.png);
+    background-image: url(Media/programacio/titols/piano.png);
     background-repeat: no-repeat;  
 }
 .pianodata{
@@ -1502,7 +1502,7 @@ body {
     left: -110px;
     height: 200px;
     width: 500px;
-    background-image: url(/Media/programacio/dates/piano.png);
+    background-image: url(Media/programacio/dates/piano.png);
     transform: scale(0.5);  
 }
 .pianotext{
@@ -1532,7 +1532,7 @@ body {
     height: 200px;
     top: 3500px;
     left: 180px;
-    background-image: url(/Media/programacio/titols/ccplayer.png);
+    background-image: url(Media/programacio/titols/ccplayer.png);
     background-repeat: no-repeat;
 }
 .exdata{
@@ -1541,7 +1541,7 @@ body {
     left: -70px;
     height: 200px;
     width: 500px;
-    background-image: url(/Media/programacio/dates/ccplayer.png);
+    background-image: url(Media/programacio/dates/ccplayer.png);
     transform: scale(0.5);  
 }
 .extext{
@@ -1571,7 +1571,7 @@ body {
     height: 200px;
     top: 4200px;
     left: 220px;
-    background-image: url(/Media/programacio/titols/cc.png);
+    background-image: url(Media/programacio/titols/cc.png);
     background-repeat: no-repeat;
     }
 .ccdata{
@@ -1580,7 +1580,7 @@ body {
     left: -110px;
     height: 200px;
     width: 500px;
-    background-image: url(/Media/programacio/dates/castlecrashers.png);
+    background-image: url(Media/programacio/dates/castlecrashers.png);
     transform: scale(0.5);  
 }
 .cctext{
@@ -1637,7 +1637,7 @@ body {
 	position: absolute;
 	top: -230px;
 	left: 640px;
-	background-image: url(/img/closebutton.png);
+	background-image: url(img/closebutton.png);
 	z-index: 1;
 	transform: scale(0.1);
 	cursor: pointer;
@@ -1651,7 +1651,7 @@ body {
 	position: absolute;
 	top: -230px;
 	left: 640px;
-	background-image: url(/img/closebutton.png);
+	background-image: url(img/closebutton.png);
 	z-index: 1;
 	transform: scale(0.1);
 	cursor: pointer;
@@ -1665,7 +1665,7 @@ body {
 	position: absolute;
 	top: -230px;
 	left: 640px;
-	background-image: url(/img/closebutton.png);
+	background-image: url(img/closebutton.png);
 	z-index: 1;
 	transform: scale(0.1);
 	cursor: pointer;
@@ -1679,7 +1679,7 @@ body {
 	position: absolute;
 	top: -230px;
 	left: 640px;
-	background-image: url(/img/closebutton.png);
+	background-image: url(img/closebutton.png);
 	z-index: 1;
 	transform: scale(0.1);
 	cursor: pointer;
@@ -1693,7 +1693,7 @@ body {
 	position: absolute;
 	top: -230px;
 	left: -70px;
-	background-image: url(/img/closebutton.png);
+	background-image: url(img/closebutton.png);
 	z-index: 1;
 	transform: scale(0.1);
 	cursor: pointer;
