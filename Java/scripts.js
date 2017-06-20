@@ -47,7 +47,7 @@ setTimeout(function(){
     	bscenes.style.animationName = "inright";
    	bprogramming.style.animationName = "inright";
     
-	 }, 2500);
+	 }, 1000);
 
 bmodeling.onclick = function () {
 	
