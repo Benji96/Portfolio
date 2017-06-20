@@ -29,16 +29,25 @@ var menucontact = document.getElementById('dotgetcontact');
 
 
 //intentar fer un window.onload per tal que nomes carregar la pagina faci les animacions inleft i inright i evitar bugg
-window.onload = function () {
-    loading.style.visibility="hidden";
-    loading.style.opacity="0";
+//window.onload = function () {
+  //  loading.style.visibility="hidden";
+    //loading.style.opacity="0";
+    
+	//bmodeling.style.animationName = "inleft";
+    //bphotoshop.style.animationName = "inleft";
+    //bscenes.style.animationName = "inright";
+    //bprogramming.style.animationName = "inright";
+    //}
+setTimeout(function(){ 
+	loading.style.visibility="hidden";
+    	loading.style.opacity="0";
     
 	bmodeling.style.animationName = "inleft";
-    bphotoshop.style.animationName = "inleft";
-    bscenes.style.animationName = "inright";
-    bprogramming.style.animationName = "inright";
+   	bphotoshop.style.animationName = "inleft";
+    	bscenes.style.animationName = "inright";
+   	bprogramming.style.animationName = "inright";
     }
-
+	 }, 3000);
 
 bmodeling.onclick = function () {
 	
