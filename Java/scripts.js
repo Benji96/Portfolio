@@ -46,7 +46,7 @@ setTimeout(function(){
    	bphotoshop.style.animationName = "inleft";
     	bscenes.style.animationName = "inright";
    	bprogramming.style.animationName = "inright";
-    }
+    
 	 }, 3000);
 
 bmodeling.onclick = function () {
