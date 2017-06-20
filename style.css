@@ -1,0 +1,1866 @@
+/* amplada i alçada fixe del body */
+
+body {
+    width: 1920px;
+    height: 950px;
+	background-image: url(img/provafon6.png);
+    background-repeat: no-repeat:
+}
+
+
+/* imatge fons de l'index */
+
+.fonsindex {
+    width: 1920px;
+    height: 950px;
+    background-repeat: no-repeat;
+ 	/*background-color: springgreen*/
+}
+/* DOTS */
+#dotmodeling {
+	position: absolute;
+	top: 10px;
+	left: 100px;
+	width: 500px;
+	height: 500px;
+	background-image: url(img/modelingdot.png);
+	animation-duration: 3s;
+	animation-iteration-count:1;/* cambiar itineration count a 1 per animacio out i temps a 3s*/
+	animation-fill-mode: forwards;
+	background-repeat: no-repeat;
+	z-index: 1;
+	cursor: pointer;
+	transform: scale(0.6);
+    filter: grayscale(70%);
+	}
+#dotmodeling:hover{
+    filter: grayscale(0%);
+    border: 3px greenyellow solid;
+    border-radius: 400px;
+   
+}
+#dotscenes {/* IL·LUMINACIÓ */
+	position: absolute;
+	top: 10px;
+	left: 470px;
+	width: 500px;
+	height: 500px;
+	background-image: url(img/scenesdot.png);
+	animation-duration: 3s;
+	animation-iteration-count:1;
+	animation-fill-mode: forwards;
+	background-repeat: no-repeat;
+	z-index: 1;
+	cursor: pointer;
+	transform: scale(0.6);
+    filter: grayscale(70%);
+	}
+#dotscenes:hover{
+     filter: grayscale(0%);
+      border: 3px orange solid;
+    border-radius: 400px;
+}
+#dotprogramming {
+	position: absolute;
+	top: 350px;
+	left: 470px;
+	width: 500px;
+	height: 500px;
+	background-image: url(img/programdot.png);
+	animation-duration: 3s;
+	animation-iteration-count:1;
+	animation-fill-mode: forwards;
+	background-repeat: no-repeat;
+	z-index: 1;
+	cursor: pointer;
+	transform: scale(0.6);
+    filter: grayscale(70%);
+	}
+#dotprogramming:hover{
+    filter: grayscale(0%);
+    border: 3px cyan solid;
+    border-radius: 400px;
+}
+#dotphotoshop {/*DISSENY*/
+	position: absolute;
+	top: 350px;
+	left: 100px;
+	width: 500px;
+	height: 500px;
+	background-image: url(img/photoshopdot.png);
+	animation-duration: 3s;
+	animation-iteration-count:1;
+	animation-fill-mode: forwards;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	z-index: 1;
+	transform: scale(0.6);
+    filter: grayscale(70%);
+	}
+#dotphotoshop:hover{
+     filter: grayscale(0%);
+     border: 3px red solid;
+     border-radius: 400px;
+}
+#dotcontact{
+    position: absolute;
+    top: 350px;
+    left: 460px;
+    width: 150px;
+    height: 150px;
+    background-image: url(img/contact.png);
+    background-color: gray;
+    cursor: pointer;
+    border-radius: 100%;
+    z-index: 5;
+}
+#dotgetcontact{
+    position: absolute;
+    top: 190px;
+    left: 310px;
+    width: 450px;
+    height: 450px;
+    background-color: gray;
+    cursor: pointer;
+    border-radius: 100%;
+    border: 5px black solid;
+    z-index:0;
+    opacity: 0;
+}
+.mail{
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    font-family: monospace;
+    font-size: 30px;
+    color: white;
+}
+.tel{
+      position: absolute;
+    top: 250px;
+    left: 130px;
+    font-family: monospace;
+    font-size: 30px;
+    color: white;
+}
+#contactshow{
+    position: absolute;
+    top: 500px;
+    left: 460px;
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    border: 5px black solid;
+    border-radius: 10px;
+    opacity: 0;
+}
+.contacttext{
+    font-family:monospace;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+  
+}
+
+
+/*#modeling{
+	text-align: center;
+	text-transform:110px;
+	position: absolute;
+	top: 260px;
+	left: 240px;
+	font-size: 27px;
+	cursor: pointer;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+	background-color: gainsboro;
+	border: 3px white solid;
+	border-radius: 25px;
+    }*/
+
+        /* MENUS */
+
+#showmodeling{
+	width: 1024px;
+	height: 768px;
+	border-radius: 25px;
+	background-image: url(img/lowpoly.jpg);
+	border: 10px greenyellow solid;
+	z-index:6 ;
+	position: absolute;
+	left: 480px;
+	top: 100px;
+	visibility: hidden;
+	overflow-y:scroll;
+    overflow-x: hidden;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+#showphotoshop{
+	width: 1024px;
+	height: 768px;
+	border-radius: 25px;
+	border: 10px red solid;
+	background-image: url(img/pauta.jpg);
+	z-index:6 ;
+	position: absolute;
+	left: 480px;
+	top: 100px;
+	visibility: hidden;
+	overflow-y:scroll;
+    overflow-x: hidden;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+#showscenes{
+	width: 1024px;
+	height: 768px;
+	border-radius: 25px;
+	border: 10px orange solid;
+	background-image: url(img/ilufons.jpg);
+	z-index:6 ;
+	position: absolute;
+	left: 480px;
+	top: 100px;
+	visibility: hidden;
+	overflow-y:scroll;
+    overflow-x: hidden;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+#showprogramming{
+	width: 1024px;
+	height: 768px;
+	border-radius: 25px;
+	border: 10px cyan solid;
+	background-image: url(img/prografons23.png);
+	z-index:6 ;
+	position: absolute;
+	left: 480px;
+	top: 100px;
+	visibility: hidden;
+	overflow-y:scroll;
+    overflow-x: hidden;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+/* TITULS DIVS ETC DELS MENUS */
+ /* MENU MODELATGE */
+ /*apartat disseny*/
+.digra{
+	text-align: center;
+	font-size: 25px;
+	font-family: fantasy;
+}
+.envfotos{
+    position: absolute;
+    top: 130px;
+    left: 10px;
+    height: 358px;
+    width: 500px;
+    background-image: url(Media/disseny/envialian1v1.jpg);
+    transform: scale(0.8);
+    border-radius: 25px;
+    border: 5px black solid;
+}
+.envfotos1{
+    position: absolute;
+    top: 130px;
+    left: 500px;
+    height: 358px;
+    width: 500px;
+    background-image: url(Media/disseny/envialia1.jpg);
+    transform: scale(0.8);
+    border-radius: 25px;
+    border: 5px black solid;
+}
+.envfotos3{
+    position: absolute;
+    top: 450px;
+    left: 10px;
+    height: 358px;
+    width: 500px;
+    background-image: url(Media/disseny/envialian1.jpg);
+    transform: scale(0.8);
+    border-radius: 25px;
+    border: 5px black solid;
+}
+.envfotos4{
+    position: absolute;
+    top: 450px;
+    left: 500px;
+    height: 358px;
+    width: 500px;
+    background-image: url(Media/disseny/envialian.jpg);
+    transform: scale(0.8);
+    border-radius: 25px;
+    border: 5px black solid;
+}
+.envtext{
+    font-family: fantasy;
+    text-align: center;
+    position: absolute;
+    top: 800px;
+    left: 100px;
+    filter: blur(5px);
+    cursor: help;
+    font-size: 25px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.envtext:hover{
+    filter: blur(0px);
+}
+.envdata{
+    position: absolute;
+    top: 40px;
+    left: -70px;
+    height: 200px;
+    width: 500px;
+    background-image: url(Media/disseny/dates/envdata.png);
+    transform: scale(0.5);   
+}
+.envtitle{
+    position: absolute;
+    top: 40px;
+    left: 170px;
+    height: 200px;
+    width: 700px;
+    background-image: url(Media/disseny/titols/digra.png);
+    transform: scale(0.7);
+}
+.esbostime{
+    position: absolute;
+    top: 880px;
+    left: 250px;
+    height: 358px;
+    width: 500px;
+    background-image: url(Media/disseny/esbos.jpg);
+    transform: scale(0.8);
+    border-radius: 25px;
+    border: 5px black solid;
+}
+.wintertime{
+    position: absolute;
+    top: 1200px;
+    left: 10px;
+    height: 358px;
+    width: 500px;
+    background-image: url(Media/disseny/wintertime.jpg);
+    transform: scale(0.8);
+    border-radius: 25px;
+    border: 5px black solid;
+}
+.summertime{
+    position: absolute;
+    top: 1200px;
+    left: 500px;
+    height: 358px;
+    width: 500px;
+    background-image: url(Media/disseny/summertime.jpg);
+    transform: scale(0.8);
+    border-radius: 25px;
+    border: 5px black solid;
+}
+.summertext{
+    font-family: fantasy;
+    text-align: center;
+    position: absolute;
+    top: 1550px;
+    left: 70px;
+    filter: blur(5px);
+    cursor: help;
+    font-size: 25px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.summertext:hover{
+    filter: blur(0px);
+}
+.summerdata{
+	position: absolute;
+    top: 790px;
+    left: -70px;
+    height: 200px;
+    width: 500px;
+    background-image: url(Media/disseny/dates/summerdata.png);
+    transform: scale(0.5);  
+}
+.summertitle{
+    position: absolute;
+    top: 790px;
+    left: 170px;
+    height: 200px;
+    width: 700px;
+    background-image: url(Media/disseny/titols/Timem.png);
+    transform: scale(0.7);
+}
+.avatar{
+    position: absolute;
+    top: 1700px;
+    left: 130px;
+    height: 408px;
+    width: 800px;
+    background-image: url(Media/disseny/Avatar.jpg);
+    transform: scale(0.8);
+    border-radius: 25px;
+    border: 5px black solid;
+}
+.avatardata{
+	position: absolute;
+    top: 1600px;
+    left: -70px;
+    height: 200px;
+    width: 500px;
+    background-image: url(Media/disseny/dates/avatardata.png);
+    transform: scale(0.5);  
+}
+.avatartitle{
+    position: absolute;
+    top: 1600px;
+    left: 170px;
+    height: 200px;
+    width: 700px;
+    background-image: url(Media/disseny/titols/avatar.png);
+    transform: scale(0.8);
+}
+.avatartext{
+    font-family: fantasy;
+    text-align: center;
+    position: absolute;
+    top: 2100px;
+    left: 250px;
+    filter: blur(5px);
+    cursor: help;
+    font-size: 25px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.avatartext:hover{
+    filter: blur(0px);
+}
+.emoticones{
+    position: absolute;
+    top: 2200px;
+    left: 130px;
+    height: 555px;
+    width: 800px;
+    background-image: url(Media/disseny/emoticones.jpg);
+    transform: scale(0.8);
+    border-radius: 25px;
+    border: 5px black solid;
+}
+.emoticonesdata{
+	position: absolute;
+    top: 2100px;
+    left: -70px;
+    height: 200px;
+    width: 500px;
+    background-image: url(Media/disseny/dates/emotdata.png);
+    transform: scale(0.5);  
+}
+.emoticonestitle{
+    position: absolute;
+    top: 2100px;
+    left: 170px;
+    height: 200px;
+    width: 700px;
+    background-image: url(Media/disseny/titols/faces.png);
+    transform: scale(0.8);
+}
+.emoticonestext{
+    font-family: fantasy;
+    text-align: center;
+    position: absolute;
+    top: 2750px;
+    left: 250px;
+    filter: blur(5px);
+    cursor: help;
+    font-size: 25px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.emoticonestext:hover{
+    filter: blur(0px);
+}
+.fons{
+    position: absolute;
+    top: 2900px;
+    left: 300px;
+    height: 600px;
+    width: 424px;
+    background-image: url(Media/disseny/fons.jpg);
+    transform: scale(0.8);
+    border-radius: 25px;
+    border: 5px black solid;
+}
+.fonsdata{
+	position: absolute;
+    top: 2800px;
+    left: -70px;
+    height: 200px;
+    width: 500px;
+    background-image: url(Media/disseny/dates/fonsdata.png);
+    transform: scale(0.5);  
+}
+.fonstitle{
+    position: absolute;
+    top: 2800px;
+    left: 170px;
+    height: 200px;
+    width: 700px;
+    background-image: url(Media/disseny/titols/mix.png);
+    transform: scale(0.8);
+}
+.fonstext{
+    font-family: fantasy;
+    text-align: center;
+    position: absolute;
+    top: 3480px;
+    left: 0px;
+    filter: blur(5px);
+    cursor: help;
+    font-size: 25px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.fonstext:hover{
+    filter: blur(0px);
+}
+.pinzells{
+    position: absolute;
+    top: 3700px;
+    left: 200px;
+    height: 424px;
+    width: 600px;
+    background-image: url(Media/disseny/pinzells.jpg);
+    transform: scale(0.8);
+    border-radius: 25px;
+    border: 5px black solid;
+}
+.pinzellsdata{
+	position: absolute;
+    top: 3600px;
+    left: -70px;
+    height: 200px;
+    width: 500px;
+    background-image: url(Media/disseny/dates/pinzellsdata.png);
+    transform: scale(0.5);  
+}
+.pinzellstitle{
+    position: absolute;
+    top: 3600px;
+    left: 170px;
+    height: 200px;
+    width: 700px;
+    background-image: url(Media/disseny/titols/brush.png);
+    transform: scale(0.8);
+}
+.pinzellstext{
+    font-family: fantasy;
+    text-align: center;
+    position: absolute;
+    top: 4100px;
+    left: 0px;
+    filter: blur(5px);
+    cursor: help;
+    font-size: 25px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.pinzellstext:hover{
+    filter: blur(0px);
+}
+.worldball{
+    position: absolute;
+    top: 4300px;
+    left: 300px;
+    height: 600px;
+    width: 397px;
+    background-image: url(Media/disseny/worldball.jpg);
+    transform: scale(0.8);
+    border-radius: 25px;
+    border: 5px black solid;
+}
+.worlddata{
+	position: absolute;
+    top: 4200px;
+    left: -70px;
+    height: 200px;
+    width: 500px;
+    background-image: url(Media/disseny/dates/worlddata.png);
+    transform: scale(0.5);  
+}
+.worldtitle{
+    position: absolute;
+    top: 4200px;
+    left: 170px;
+    height: 200px;
+    width: 700px;
+    background-image: url(Media/disseny/titols/worldball.png);
+    transform: scale(0.7);
+}
+.worldtext{
+    font-family: fantasy;
+    text-align: center;
+    position: absolute;
+    top: 4850px;
+    left: 0px;
+    filter: blur(5px);
+    cursor: help;
+    font-size: 25px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.worldtext:hover{
+    filter: blur(0px);
+}
+.bmw{
+    position: absolute;
+    top: 5000px;
+    left: 130px;
+    height: 450px;
+    width: 800px;
+    background-image: url(Media/disseny/bmw.jpg);
+    transform: scale(0.8);
+    border-radius: 25px;
+    border: 5px black solid;
+}
+.bmwdata{
+	position: absolute;
+    top: 4900px;
+    left: -70px;
+    height: 200px;
+    width: 500px;
+    background-image: url(Media/disseny/dates/bmwdata.png);
+    transform: scale(0.5);  
+}
+.bmwtitle{
+    position: absolute;
+    top: 4900px;
+    left: 170px;
+    height: 200px;
+    width: 700px;
+    background-image: url(Media/disseny/titols/bmw.png);
+    transform: scale(0.6);
+}
+.bmwtext{
+    font-family: fantasy;
+    text-align: center;
+    position: absolute;
+    top: 5450px;
+    left: 0px;
+    filter: blur(5px);
+    cursor: help;
+    font-size: 25px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.bmwtext:hover{
+    filter: blur(0px);
+}
+.dos{
+    position: absolute;
+    top: 5590px;
+    left: 300px;
+    height: 600px;
+    width: 398px;
+    background-image: url(Media/disseny/fotomuntatge-dona-v2.jpg);
+    transform: scale(0.8);
+    border-radius: 25px;
+    border: 5px black solid;
+}
+.dosdata{
+	position: absolute;
+    top: 5500px;
+    left: -70px;
+    height: 200px;
+    width: 500px;
+    background-image: url(Media/disseny/dates/v2data.png);
+    transform: scale(0.5);  
+}
+.dostitle{
+    position: absolute;
+    top: 5500px;
+    left: 170px;
+    height: 200px;
+    width: 700px;
+    background-image: url(Media/disseny/titols/dos.png);
+    transform: scale(0.6);
+}
+.dostext{
+    font-family: fantasy;
+    text-align: center;
+    position: absolute;
+    top: 6150px;
+    left: 30px;
+    filter: blur(5px);
+    cursor: help;
+    font-size: 25px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.dostext:hover{
+    filter: blur(0px);
+}
+.fotomuntatge{
+    position: absolute;
+    top: 6250px;
+    left: 300px;
+    height: 600px;
+    width: 398px;
+    background-image: url(Media/disseny/retrat.alcaidebenjami.jpg);
+    transform: scale(0.8);
+    border-radius: 25px;
+    border: 5px black solid;
+}
+.fotomuntatgedata{
+	position: absolute;
+    top: 6150px;
+    left: -70px;
+    height: 200px;
+    width: 500px;
+    background-image: url(Media/disseny/dates/retratdata.png);
+    transform: scale(0.5);  
+}
+.fotomuntatgetitle{
+    position: absolute;
+    top: 6150px;
+    left: 170px;
+    height: 200px;
+    width: 700px;
+    background-image: url(Media/disseny/titols/cyborg.png);
+    transform: scale(0.6);
+}
+.fotomuntatgetext{
+    font-family: fantasy;
+    text-align: center;
+    position: absolute;
+    top: 6850px;
+    left: 150px;
+    filter: blur(5px);
+    cursor: help;
+    font-size: 25px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.fotomuntatgetext:hover{
+    filter: blur(0px);
+}
+
+
+
+
+
+/*MODELATGE*/
+
+
+
+.digra{
+	text-align: center;
+	font-size: 25px;
+	font-family: fantasy;
+}
+
+.motovideo{
+    transform: scale(0.6);
+    position: absolute;
+    top: 0px;
+    left: -120px;
+    border: 5px black solid;
+}
+.mototitol{
+    position: absolute;
+    width: 700px;
+    height: 200px;
+    top: 0px;
+    left: 150px;
+    background-image: url(Media/modelatge/titols/mototitol.png);
+    background-repeat: no-repeat;
+}
+.motodata{
+	position: absolute;
+    top: 0px;
+    left: -70px;
+    height: 200px;
+    width: 500px;
+    background-image: url(Media/modelatge/dates/motodata.png);
+    transform: scale(0.5);  
+}
+.mototext{
+    font-family: fantasy;
+    text-align: center;
+    position: absolute;
+    top: 650px;
+    left: 30px;
+    filter: blur(5px);
+    cursor: help;
+    font-size: 25px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.mototext:hover{
+    filter: blur(0px);
+}
+.dracvideo{
+    transform: scale(0.6);
+    position: absolute;
+    top: 700px;
+    left: -120px;
+    border: 5px black solid;
+}
+.dractitle{
+    position: absolute;
+    width: 700px;
+    height: 200px;
+    top: 700px;
+    left: 150px;
+    background-image: url(Media/modelatge/titols/dractitol.png);
+    background-repeat: no-repeat; 
+}
+.dracdata{
+	position: absolute;
+    top: 700px;
+    left: -70px;
+    height: 200px;
+    width: 500px;
+    background-image: url(Media/modelatge/dates/dracdata.png);
+    transform: scale(0.5);  
+}
+.dractext{
+    font-family: fantasy;
+    text-align: center;
+    position: absolute;
+    top: 1350px;
+    left: 30px;
+    filter: blur(5px);
+    cursor: help;
+    font-size: 25px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.dractext:hover{
+    filter: blur(0px);
+}
+.hellboyvideo{
+    transform: scale(0.6);
+    position: absolute;
+    top: 1400px;
+    left: -120px;
+    border: 5px black solid;
+}
+.hellboytitle{
+    position: absolute;
+    width: 700px;
+    height: 200px;
+    top: 1400px;
+    left: 150px;
+    background-image: url(Media/modelatge/titols/hellboytitol.png);
+    background-repeat: no-repeat; 
+}
+.hellboydata{
+	position: absolute;
+    top: 1400px;
+    left: -70px;
+    height: 200px;
+    width: 500px;
+    background-image: url(Media/modelatge/dates/helldata.png);
+    transform: scale(0.5);  
+}
+.hellboytext{
+    font-family: fantasy;
+    text-align: center;
+    position: absolute;
+    top: 2050px;
+    left: 50px;
+    filter: blur(5px);
+    cursor: help;
+    font-size: 25px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.hellboytext:hover{
+    filter: blur(0px);
+}
+.robvideo{
+    transform: scale(0.6);
+    position: absolute;
+    top: 2100px;
+    left: -120px;
+    border: 5px black solid;
+}
+.robbtitle{
+    position: absolute;
+    width: 700px;
+    height: 200px;
+    top: 2100px;
+    left: 150px;
+    background-image: url(Media/modelatge/titols/robtitol.png);
+    background-repeat: no-repeat;   
+}
+.robbdata{
+	position: absolute;
+    top: 2100px;
+    left: -100px;
+    height: 200px;
+    width: 500px;
+    background-image: url(Media/modelatge/dates/robdata.png);
+    transform: scale(0.5);  
+}
+.robtext{
+    font-family: fantasy;
+    text-align: center;
+    position: absolute;
+    top: 2750px;
+    left: 100px;
+    filter: blur(5px);
+    cursor: help;
+    font-size: 25px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.robtext:hover{
+    filter: blur(0px);
+}
+.kitchenvideo{
+    transform: scale(0.6);
+    position: absolute;
+    top: 2800px;
+    left: -120px;
+    border: 5px black solid;
+}
+.kitchentitle{
+    position: absolute;
+    width: 700px;
+    height: 200px;
+    top: 2800px;
+    left: 150px;
+    background-image: url(Media/modelatge/titols/kitaidtitol.png);
+    background-repeat: no-repeat;  
+}
+.kitchendata{
+	position: absolute;
+    top: 2800px;
+    left: -110px;
+    height: 200px;
+    width: 500px;
+    background-image: url(Media/modelatge/dates/kitaiddata.png);
+    transform: scale(0.5);  
+}
+.kitchentext{
+    font-family: fantasy;
+    text-align: center;
+    position: absolute;
+    top: 3450px;
+    left: 30px;
+    filter: blur(5px);
+    cursor: help;
+    font-size: 25px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.kitchentext:hover{
+    filter: blur(0px);
+}
+.torsovideo{
+    transform: scale(0.6);
+    position: absolute;
+    top: 3500px;
+    left: -120px;
+    border: 5px black solid;
+}
+.torsotitle{
+    position: absolute;
+    width: 700px;
+    height: 200px;
+    top: 3500px;
+    left: 150px;
+    background-image: url(Media/modelatge/titols/torsotitol.png);
+    background-repeat: no-repeat;
+}
+.torsodata{
+	position: absolute;
+    top: 3500px;
+    left: -70px;
+    height: 200px;
+    width: 500px;
+    background-image: url(Media/modelatge/dates/torsodata.png);
+    transform: scale(0.5);  
+}
+.torsotext{
+    font-family: fantasy;
+    text-align: center;
+    position: absolute;
+    top: 4150px;
+    left: 150px;
+    filter: blur(5px);
+    cursor: help;
+    font-size: 25px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.torsotext:hover{
+    filter: blur(0px);
+}
+.nublarvideo{
+    transform: scale(0.6);
+    position: absolute;
+    top: 4200px;
+    left: -120px;
+    border: 5px black solid;
+}
+.nublartitle{
+    position: absolute;
+    width: 700px;
+    height: 200px;
+    top: 4200px;
+    left: 200px;
+    background-image: url(Media/modelatge/titols/nublartitol.png);
+    background-repeat: no-repeat;
+    }
+.nublardata{
+	position: absolute;
+    top: 4200px;
+    left: -110px;
+    height: 200px;
+    width: 500px;
+    background-image: url(Media/modelatge/dates/nublar-data.png);
+    transform: scale(0.5);  
+}
+.nublartext{
+    font-family: fantasy;
+    text-align: center;
+    position: absolute;
+    top: 4850px;
+    left: 30px;
+    filter: blur(5px);
+    cursor: help;
+    font-size: 25px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.nublartext:hover{
+    filter: blur(0px);
+}
+.dinovideo{
+    transform: scale(0.6);
+    position: absolute;
+    top: 4900px;
+    left: -120px;
+    border: 5px black solid;
+}
+.dinotitle{
+    position: absolute;
+    width: 700px;
+    height: 200px;
+    top: 4900px;
+    left: 150px;
+    background-image: url(Media/modelatge/titols/dinotitol.png);
+    background-repeat: no-repeat; 
+}
+.dinodata{
+	position: absolute;
+    top: 4900px;
+    left: -70px;
+    height: 200px;
+    width: 500px;
+    background-image: url(Media/modelatge/dates/dinozdata.png);
+    transform: scale(0.5);  
+}
+.dinotext{
+    font-family: fantasy;
+    text-align: center;
+    position: absolute;
+    top: 5550px;
+    left: 30px;
+    filter: blur(5px);
+    cursor: help;
+    font-size: 25px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.dinotext:hover{
+    filter: blur(0px);
+}
+.xwingvideo{
+    transform: scale(0.6);
+    position: absolute;
+    top: 5600px;
+    left: -120px;
+    border: 5px black solid;
+}
+.xwingtitle{
+    position: absolute;
+    width: 700px;
+    height: 200px;
+    top: 5600px;
+    left: 150px;
+    background-image: url(Media/modelatge/titols/xwingtitol.png);
+    background-repeat: no-repeat;  
+}
+.xwingdata{
+	position: absolute;
+    top: 5600px;
+    left: -70px;
+    height: 200px;
+    width: 500px;
+    background-image: url(Media/modelatge/dates/xwingdata.png);
+    transform: scale(0.5);  
+}
+.xwingtext{
+    font-family: fantasy;
+    text-align: center;
+    position: absolute;
+    top: 6250px;
+    left: 30px;
+    filter: blur(5px);
+    cursor: help;
+    font-size: 25px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.xwingtext:hover{
+    filter: blur(0px);
+}
+.lampvideo{
+    transform: scale(0.6);
+    position: absolute;
+    top: 6300px;
+    left: -120px;
+    border: 5px black solid;
+}
+.lamptitle{
+    position: absolute;
+    width: 700px;
+    height: 200px;
+    top: 6300px;
+    left: 150px;
+    background-image: url(Media/modelatge/titols/lamptitol.png);
+    background-repeat: no-repeat;
+}
+.lampdata{
+	position: absolute;
+    top: 6300px;
+    left: -70px;
+    height: 200px;
+    width: 500px;
+    background-image: url(Media/modelatge/dates/lampdata.png);
+    transform: scale(0.5);  
+}
+.lamptext{
+    font-family: fantasy;
+    text-align: center;
+    position: absolute;
+    top: 6950px;
+    left: 150px;
+    filter: blur(5px);
+    cursor: help;
+    font-size: 25px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.lamptext:hover{
+    filter: blur(0px);
+}
+/* MENU IL·LUMINACIÓ */
+.escilu{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    height: 450px;
+    width: 800px;
+    background-image: url(Media/ilu/finalbumpv4.png);
+    transform: scale(0.8);
+    border-radius: 25px;
+    border: 5px black solid;
+}
+.escilutext{
+    font-family: fantasy;
+    text-align: center;
+    position: absolute;
+    top: 600px;
+    left: 50px;
+    filter: blur(5px);
+    cursor: help;
+    font-size: 25px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.escilutext:hover{
+    filter: blur(0px);
+}
+.esciludata{
+    position: absolute;
+    top: 40px;
+    left: -70px;
+    height: 200px;
+    width: 500px;
+    background-image: url(Media/ilu/dates/escilu.png);
+    transform: scale(0.5);   
+}
+.escilutitle{
+    position: absolute;
+    top: 40px;
+    left: 170px;
+    height: 200px;
+    width: 700px;
+    background-image: url(Media/ilu/titols/Museu.png);
+    transform: scale(0.7);
+}
+.nit{
+    position: absolute;
+    top: 780px;
+    left: 50px;
+    height: 281px;
+    width: 500px;
+    background-image: url(Media/ilu/rendernit.png);
+    transform: scale(0.8);
+    border-radius: 25px;
+    border: 5px black solid;
+}
+.dia{
+    position: absolute;
+    top: 780px;
+    left: 480px;
+    height: 281px;
+    width: 500px;
+    background-image: url(Media/ilu/renderdia.png);
+    transform: scale(0.8);
+    border-radius: 25px;
+    border: 5px black solid;
+}
+.habtext{
+    font-family: fantasy;
+    text-align: center;
+    position: absolute;
+    top: 1080px;
+    left: 150px;
+    filter: blur(5px);
+    cursor: help;
+    font-size: 25px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.habtext:hover{
+    filter: blur(0px);
+}
+.habdata{
+    position: absolute;
+    top: 680px;
+    left: -70px;
+    height: 200px;
+    width: 500px;
+    background-image: url(Media/ilu/dates/habitacio.png);
+    transform: scale(0.5);   
+}
+.habtitle{
+    position: absolute;
+    top: 680px;
+    left: 110px;
+    height: 200px;
+    width: 700px;
+    background-image: url(Media/ilu/titols/room.png);
+    transform: scale(0.7);
+}
+.bidons{
+    position: absolute;
+    top: 1150px;
+    left: 20px;
+    height: 540px;
+    width: 960px;
+    background-image: url(Media/ilu/ombrapla.png);
+    transform: scale(0.8);
+    border-radius: 25px;
+    border: 5px black solid;
+}
+.bidonstext{
+    font-family: fantasy;
+    text-align: center;
+    position: absolute;
+    top: 1690px;
+    left: 100px;
+    filter: blur(5px);
+    cursor: help;
+    font-size: 25px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.bidonstext:hover{
+    filter: blur(0px);
+}
+.bidonsdata{
+    position: absolute;
+    top: 1080px;
+    left: -70px;
+    height: 200px;
+    width: 500px;
+    background-image: url(Media/ilu/dates/bidons.png);
+    transform: scale(0.5);   
+}
+.bidonstitle{
+    position: absolute;
+    top: 1080px;
+    left: 140px;
+    height: 200px;
+    width: 700px;
+    background-image: url(Media/ilu/titols/bodego.png);
+    transform: scale(0.7);
+}
+.fruites{
+    position: absolute;
+    top: 1800px;
+    left: 150px;
+    height: 394px;
+    width: 700px;
+    background-image: url(Media/ilu/esquema%201%20key.png);
+    transform: scale(0.8);
+    border-radius: 25px;
+    border: 5px black solid;
+}
+.fruitesdata{
+    position: absolute;
+    top: 1700px;
+    left: -70px;
+    height: 200px;
+    width: 500px;
+    background-image: url(Media/ilu/dates/fruites.png);
+    transform: scale(0.5);   
+}
+.fruitestitle{
+    position: absolute;
+    top: 1700px;
+    left: 170px;
+    height: 200px;
+    width: 700px;
+    background-image: url(Media/ilu/titols/fruit.png);
+    transform: scale(0.7);
+}
+
+
+
+/* MENU PROGRAMACIÓ */
+
+.flappyvideo{
+    transform: scale(0.6);
+    position: absolute;
+    top: 0px;
+    left: -120px;
+    border: 5px black solid;
+}
+.flappytitol{
+    position: absolute;
+    width: 700px;
+    height: 200px;
+    top: 0px;
+    left: 150px;
+    background-image: url(Media/programacio/titols/flappy.png);
+    background-repeat: no-repeat;
+}
+.flappydata{
+	position: absolute;
+    top: 0px;
+    left: -70px;
+    height: 200px;
+    width: 500px;
+    background-image: url(Media/programacio/dates/flappy.png);
+    transform: scale(0.5);  
+}
+.flappytext{
+    font-family: fantasy;
+    text-align: center;
+    position: absolute;
+    top: 650px;
+    left: 30px;
+    filter: blur(5px);
+    cursor: help;
+    font-size: 25px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.flappytext:hover{
+    filter: blur(0px);
+}
+.nauvideo{
+    transform: scale(0.6);
+    position: absolute;
+    top: 700px;
+    left: -120px;
+    border: 5px black solid;
+}
+.nautitle{
+    position: absolute;
+    width: 700px;
+    height: 200px;
+    top: 700px;
+    left: 220px;
+    background-image: url(Media/programacio/titols/nau.png);
+    background-repeat: no-repeat; 
+}
+.naudata{
+	position: absolute;
+    top: 700px;
+    left: -70px;
+    height: 200px;
+    width: 500px;
+    background-image: url(Media/programacio/dates/nau.png);
+    transform: scale(0.5);  
+}
+.nautext{
+    font-family: fantasy;
+    text-align: center;
+    position: absolute;
+    top: 1350px;
+    left: 30px;
+    filter: blur(5px);
+    cursor: help;
+    font-size: 25px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.nautext:hover{
+    filter: blur(0px);
+}
+.pouvideo{
+    transform: scale(0.6);
+    position: absolute;
+    top: 1400px;
+    left: -120px;
+    border: 5px black solid;
+}
+.poutitle{
+    position: absolute;
+    width: 700px;
+    height: 200px;
+    top: 1400px;
+    left: 150px;
+    background-image: url(Media/programacio/titols/pou.png);
+    background-repeat: no-repeat; 
+}
+.poudata{
+	position: absolute;
+    top: 1400px;
+    left: -70px;
+    height: 200px;
+    width: 500px;
+    background-image: url(Media/programacio/dates/pou.png);
+    transform: scale(0.5);  
+}
+.poutext{
+    font-family: fantasy;
+    text-align: center;
+    position: absolute;
+    top: 2050px;
+    left: 50px;
+    filter: blur(5px);
+    cursor: help;
+    font-size: 25px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.poutext:hover{
+    filter: blur(0px);
+}
+.pongvideo{
+    transform: scale(0.6);
+    position: absolute;
+    top: 2100px;
+    left: -120px;
+    border: 5px black solid;
+}
+.pongtitle{
+    position: absolute;
+    width: 700px;
+    height: 200px;
+    top: 2100px;
+    left: 150px;
+    background-image: url(Media/programacio/titols/pong.png);
+    background-repeat: no-repeat;   
+}
+.pongdata{
+	position: absolute;
+    top: 2100px;
+    left: -100px;
+    height: 200px;
+    width: 500px;
+    background-image: url(Media/programacio/dates/pong.png);
+    transform: scale(0.5);  
+}
+.pongtext{
+    font-family: fantasy;
+    text-align: center;
+    position: absolute;
+    top: 2725px;
+    left: 30px;
+    filter: blur(5px);
+    cursor: help;
+    font-size: 25px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.pongtext:hover{
+    filter: blur(0px);
+}
+.pianovideo{
+    transform: scale(0.6);
+    position: absolute;
+    top: 2800px;
+    left: -120px;
+    border: 5px black solid;
+}
+.pianotitle{
+    position: absolute;
+    width: 700px;
+    height: 200px;
+    top: 2800px;
+    left: 150px;
+    background-image: url(Media/programacio/titols/piano.png);
+    background-repeat: no-repeat;  
+}
+.pianodata{
+	position: absolute;
+    top: 2800px;
+    left: -110px;
+    height: 200px;
+    width: 500px;
+    background-image: url(Media/programacio/dates/piano.png);
+    transform: scale(0.5);  
+}
+.pianotext{
+    font-family: fantasy;
+    text-align: center;
+    position: absolute;
+    top: 3450px;
+    left: 30px;
+    filter: blur(5px);
+    cursor: help;
+    font-size: 25px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.pianotext:hover{
+    filter: blur(0px);
+}
+.exvideo{
+    transform: scale(0.6);
+    position: absolute;
+    top: 3500px;
+    left: -120px;
+    border: 5px black solid;
+}
+.extitle{
+    position: absolute;
+    width: 700px;
+    height: 200px;
+    top: 3500px;
+    left: 180px;
+    background-image: url(Media/programacio/titols/ccplayer.png);
+    background-repeat: no-repeat;
+}
+.exdata{
+	position: absolute;
+    top: 3500px;
+    left: -70px;
+    height: 200px;
+    width: 500px;
+    background-image: url(Media/programacio/dates/ccplayer.png);
+    transform: scale(0.5);  
+}
+.extext{
+    font-family: fantasy;
+    text-align: center;
+    position: absolute;
+    top: 4150px;
+    left: 150px;
+    filter: blur(5px);
+    cursor: help;
+    font-size: 25px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.extext:hover{
+    filter: blur(0px);
+}
+.ccvideo{
+    transform: scale(0.6);
+    position: absolute;
+    top: 4200px;
+    left: -120px;
+    border: 5px black solid;
+}
+.cctitle{
+    position: absolute;
+    width: 700px;
+    height: 200px;
+    top: 4200px;
+    left: 220px;
+    background-image: url(Media/programacio/titols/cc.png);
+    background-repeat: no-repeat;
+    }
+.ccdata{
+	position: absolute;
+    top: 4200px;
+    left: -110px;
+    height: 200px;
+    width: 500px;
+    background-image: url(Media/programacio/dates/castlecrashers.png);
+    transform: scale(0.5);  
+}
+.cctext{
+    font-family: fantasy;
+    text-align: center;
+    position: absolute;
+    top: 4850px;
+    left: 30px;
+    filter: blur(5px);
+    cursor: help;
+    font-size: 25px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.cctext:hover{
+    filter: blur(0px);
+}
+
+/* MENU IL·LUMINACIÓ */
+
+/*#scenes{
+	text-align: center;
+	text-transform:110px;
+	position: absolute;
+	top: 260px;
+	left: 638px;
+	font-size: 25px;
+	cursor: pointer;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+	background-color: gainsboro;
+	border: 3px white solid;
+	border-radius: 25px;
+	}*/
+
+/*#programming {
+	text-align: center;
+	text-transform:110px;
+	position: absolute;
+	top: 565px;
+	left: 635px;
+	font-size: 24px;
+	cursor: pointer;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+	background-color: gainsboro;
+	border: 3px white solid;
+	border-radius: 25px;
+	}*/
+#closebutton{
+	width: 600px;
+	height: 600px;
+	position: absolute;
+	top: -230px;
+	left: 640px;
+	background-image: url(img/closebutton.png);
+	z-index: 1;
+	transform: scale(0.1);
+	cursor: pointer;
+	animation-name: getbig;
+	animation-iteration-count: infinite;
+	animation-duration: 30s;
+}
+#closebutton1{
+	width: 600px;
+	height: 600px;
+	position: absolute;
+	top: -230px;
+	left: 640px;
+	background-image: url(img/closebutton.png);
+	z-index: 1;
+	transform: scale(0.1);
+	cursor: pointer;
+    animation-name: getbig;
+	animation-iteration-count: infinite;
+	animation-duration: 30s;
+}
+#closebutton2{
+	width: 600px;
+	height: 600px;
+	position: absolute;
+	top: -230px;
+	left: 640px;
+	background-image: url(img/closebutton.png);
+	z-index: 1;
+	transform: scale(0.1);
+	cursor: pointer;
+    animation-name: getbig;
+	animation-iteration-count: infinite;
+	animation-duration: 30s;
+}
+#closebutton3{
+	width: 600px;
+	height: 600px;
+	position: absolute;
+	top: -230px;
+	left: 640px;
+	background-image: url(img/closebutton.png);
+	z-index: 1;
+	transform: scale(0.1);
+	cursor: pointer;
+    animation-name: getbig;
+	animation-iteration-count: infinite;
+	animation-duration: 30s;
+}
+#closebutton4{
+	width: 600px;
+	height: 600px;
+	position: absolute;
+	top: -230px;
+	left: -70px;
+	background-image: url(img/closebutton.png);
+	z-index: 1;
+	transform: scale(0.1);
+	cursor: pointer;
+    animation-name: getbig;
+	animation-iteration-count: infinite;
+	animation-duration: 30s;
+}
+
+/*#photoshop {
+	text-align: center;
+	text-transform:110px;
+	position: absolute;
+	top: 565px;
+	left: 260px;
+	font-size: 30px;
+	cursor: pointer;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+	background-color: gainsboro;
+	border: 3px white solid;
+	border-radius: 25px;
+	}*/
+.contenidor{
+	
+	width: 900px;
+	height: 800px;
+	position: absolute;
+	left:400px;
+	margin-top: 60px;
+}
+/* PROVES */
+
+#contenidorcarga{
+    background-color:dimgrey;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    transition: all 1s ease;
+    z-index: 10000;
+    
+}
+#carga{
+    border: 15px solid ;
+    border-top-color: greenyellow;
+    border-left-color: red;
+    border-right-color: cyan;
+    border-bottom-color: orange;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    margin: auto;
+    
+    animation-name: girar;
+    animation-duration: 1.5s ;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+/* KEYFRAMES*/
+
+@keyframes girar{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+
+@keyframes dotrotation{
+	0%{transform:rotate(0deg);}
+	50%{transform:rotate(100deg);}
+    100%{transform:rotate(0deg);}
+}
+@keyframes dotrotationleft{
+	0%{transform:rotate(0deg);left: -290px;}
+	50%{transform:rotate(100deg);left: -290px;}
+    100%{transform:rotate(0deg);left: -290px;}
+}
+@keyframes dotrotationright{
+	0%{transform:rotate(0deg);left: 1060px;}
+	50%{transform:rotate(100deg);left: 1060px;}
+    100%{transform:rotate(0deg);left: 1060px;}
+}
+@keyframes getbig{
+	0%{transform: scale(0.1)}
+	5%{transform: scale(0.15)}
+	15%{transform: scale(0.1)}
+	20%{transform: scale(0.15)}
+	25%{transform: scale(0.1)}
+	35%{transform: scale(0.15)}
+	40%{transform: scale(0.1)}
+	50%{transform: scale(0.15)}
+	55%{transform: scale(0.1)}
+	65%{transform: scale(0.15)}
+	70%{transform: scale(0.1)}
+	80%{transform: scale(0.15)}
+	85%{transform: scale(0.1)}
+	95%{transform: scale(0.15)}
+	100%{transform: scale(0.1)}
+	
+}
+
+@keyframes outleft{
+    0%{}
+    100%{left: -350px;}
+  
+}
+@keyframes inleft{
+    0%{left: -290px;}
+    100%{}
+  
+}
+@keyframes outright{
+    0%{}
+    100%{left: 1060px;}
+  
+}
+@keyframes inright{
+    0%{left: 1060px;}
+    100%{}
+  
+}
+@keyframes outlefttitle{
+    0%{}
+    100%{left: -250px;}
+  
+}
+@keyframes inlefttitle{
+    0%{left: -250px;}
+    100%{}
+  
+}
+@keyframes outlefttitlephotoshop{
+    0%{}
+    100%{left: -230px;}
+  
+}
+@keyframes inlefttitlephotoshop{
+    0%{left: -230px;}
+    100%{}
+  
+}
+@keyframes outrighttitle{
+    0%{}
+    100%{left: 1097px;}
+  
+}
+@keyframes inrighttitle{
+    0%{left: 1097px;}
+    100%{}
+  
+}
+@keyframes outrighttitlescene{
+    0%{}
+    100%{left: 1099px;}
+  
+}
+@keyframes inrighttitlescene{
+    0%{left: 1099px;}
+    100%{}
+  
+}
+
+
